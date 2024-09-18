@@ -1,21 +1,42 @@
 @isTest
-private class GreetingServiceTest {
+public class GreetingServiceTest {
 
     @isTest
-    static void testGetGreeting() {
-        // Instantiate the GreetingService class
+    static void testGetGreetingWithName() {
+        // Arrange
         GreetingService greetingService = new GreetingService();
+        String name = 'Alice';
 
-        // Test with a valid name
-        String greetingWithName = greetingService.getGreeting('Alice');
-        System.assertEquals('Hello, Alice!', greetingWithName, 'The greeting message should include the name.');
+        // Act
+        String result = greetingService.getGreeting(name);
 
-        // Test with an empty name
-        String greetingWithEmptyName = greetingService.getGreeting('');
-        System.assertEquals('Hello, stranger!', greetingWithEmptyName, 'The greeting message should be for a stranger.');
+        // Assert
+        System.assertEquals('Hello, Alice!', result, 'The greeting message should include the name.');
+    }
 
-        // Test with null
-        String greetingWithNull = greetingService.getGreeting(null);
-        System.assertEquals('Hello, stranger!', greetingWithNull, 'The greeting message should be for a stranger when name is null.');
+    @isTest
+    static void testGetGreetingWithoutName() {
+        // Arrange
+        GreetingService greetingService = new GreetingService();
+        String name = '';
+
+        // Act
+        String result = greetingService.getGreeting(name);
+
+        // Assert
+        System.assertEquals('Hello!', result, 'The greeting message should be a generic hello.');
+    }
+
+    @isTest
+    static void testGetGreetingWithNull() {
+        // Arrange
+        GreetingService greetingService = new GreetingService();
+        String name = null;
+
+        // Act
+        String result = greetingService.getGreeting(name);
+
+        // Assert
+        System.assertEquals('Hello!', result, 'The greeting message should be a generic hello when the name is null.');
     }
 }
