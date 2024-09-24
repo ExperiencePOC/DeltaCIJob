@@ -39,7 +39,7 @@
         <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>AssignPermissionSets</name>
     </userPermissions>
     <userPermissions>
@@ -571,6 +571,10 @@
         <name>PublishPackaging</name>
     </userPermissions>
     <userPermissions>
+        <enabled>true</enabled>
+        <name>RecordVisibilityAPI</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>false</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
@@ -691,11 +695,11 @@
         <name>ViewAllData</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>ViewAllProfiles</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>ViewAllUsers</name>
     </userPermissions>
     <userPermissions>
