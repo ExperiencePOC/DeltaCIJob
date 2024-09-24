@@ -10,8 +10,8 @@ public class GreetingServiceTest {
         // Act
         String result = greetingService.getGreeting(name);
 
-        // Assert (intentionally incorrect)
-        System.assertEquals('Goodbye, Alice!', result, 'The greeting message should incorrectly indicate goodbye.');
+        // Assert
+        System.assertEquals('Hello, Alice!', result, 'The greeting message should include the name.');
     }
 
     @isTest
@@ -23,8 +23,8 @@ public class GreetingServiceTest {
         // Act
         String result = greetingService.getGreeting(name);
 
-        // Assert (intentionally incorrect)
-        System.assertEquals('Hi!', result, 'The greeting message should incorrectly say hi instead of hello.');
+        // Assert
+        System.assertEquals('Hello!', result, 'The greeting message should be a generic hello.');
     }
 
     @isTest
@@ -36,7 +36,7 @@ public class GreetingServiceTest {
         // Act
         String result = greetingService.getGreeting(name);
 
-        // Assert (intentionally incorrect)
-        System.assertEquals('Goodbye!', result, 'The greeting message should incorrectly say goodbye when the name is null.');
+        // Assert
+        System.assertEquals('Hello!', result, 'The greeting message should be a generic hello when the name is null.');
     }
 }
