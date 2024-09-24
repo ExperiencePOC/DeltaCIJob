@@ -7,6 +7,14 @@
         <name>AIViewInsightObjects</name>
     </userPermissions>
     <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessCMC</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessContentBuilder</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>false</enabled>
         <name>ActivateContract</name>
     </userPermissions>
@@ -119,7 +127,7 @@
         <name>ContentAdministrator</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
@@ -293,6 +301,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>InstallPackaging</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LifecycleManagementAPIUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -603,7 +615,7 @@
         <name>SendCustomNotifications</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>SendSitRequests</name>
     </userPermissions>
     <userPermissions>
@@ -653,6 +665,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TraceXdsQueries</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
