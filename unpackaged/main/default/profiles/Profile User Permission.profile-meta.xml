@@ -7,11 +7,11 @@
         <name>AIViewInsightObjects</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ActivateContract</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ActivateOrder</name>
     </userPermissions>
     <userPermissions>
@@ -19,7 +19,7 @@
         <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>AddDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -55,7 +55,7 @@
         <name>BulkMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>CanAccessCE</name>
     </userPermissions>
     <userPermissions>
@@ -99,7 +99,7 @@
         <name>ChatterOwnGroups</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ClientSecretRotation</name>
     </userPermissions>
     <userPermissions>
@@ -115,7 +115,7 @@
         <name>ContentAdministrator</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
@@ -171,7 +171,7 @@
         <name>DelegatedTwoFactor</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>DeleteActivatedContract</name>
     </userPermissions>
     <userPermissions>
@@ -183,7 +183,7 @@
         <name>DistributeFromPersWksp</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EditActivatedOrders</name>
     </userPermissions>
     <userPermissions>
@@ -571,7 +571,7 @@
         <name>PublishPackaging</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -683,7 +683,7 @@
         <name>UseTeamReassignWizards</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
